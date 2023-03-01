@@ -5,7 +5,7 @@
   body {
     background: #232227;
     .container {
-      border: 2px solid red;
+      // border: 2px solid red;
       header {
         width: 100%;
         display: flex;
@@ -1399,6 +1399,7 @@
           }
         }
         .section_our_team_two {
+          justify-content: center;
           padding-left: 140px;
           padding-right: 141px;
           padding-top: 123px;
@@ -1410,9 +1411,15 @@
               background: #36343f;
               border-top-left-radius: 10px;
               border-top-right-radius: 10px;
-              height: 470px;
+              width: 385px;
+              height: 548px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
             }
             .section_our_team_two_item_text {
+              width: 385px;
               height: 100px;
               padding-left: 43px;
               background: #000000;
@@ -1443,34 +1450,98 @@
             }
             &:nth-of-type(1) {
               .section_our_team_two_item_img {
+                padding-top: 39px;
+                padding-left: 43px;
+                padding-right: 42px;
+              }
+            }
+            &:nth-of-type(2) {
+              .section_our_team_two_item_img {
+                padding-top: 37px;
+                padding-left: 37px;
+                padding-right: 22px;
+              }
+            }
+            &:nth-of-type(3) {
+              .section_our_team_two_item_img {
+                padding-top: 30px;
+                padding-left: 56px;
+                padding-right: 55px;
+              }
+            }
+            &:nth-of-type(4) {
+              .section_our_team_two_item_img {
+                padding-top: 36px;
+                padding-left: 51px;
+                padding-right: 24px;
+              }
+            }
+          }
+        }
+        @media screen and (max-width: 1440px) {
+          .section_our_team_two {
+            .section_our_team_two_item {
+              .section_our_team_two_item_img {
+                width: 288px;
+                height: 370px;
                 img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 290px;
+                height: 100px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 30px;
+                  line-height: 36px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 36px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
+                }
+              }
+              &:nth-of-type(1) {
+                .section_our_team_two_item_img {
                   padding-top: 39px;
                   padding-left: 43px;
                   padding-right: 42px;
                 }
               }
-            }
-            &:nth-of-type(2) {
-              .section_our_team_two_item_img {
-                img {
+              &:nth-of-type(2) {
+                .section_our_team_two_item_img {
                   padding-top: 37px;
                   padding-left: 37px;
                   padding-right: 22px;
                 }
               }
-            }
-            &:nth-of-type(3) {
-              .section_our_team_two_item_img {
-                img {
+              &:nth-of-type(3) {
+                .section_our_team_two_item_img {
                   padding-top: 30px;
                   padding-left: 56px;
                   padding-right: 55px;
                 }
               }
-            }
-            &:nth-of-type(4) {
-              .section_our_team_two_item_img {
-                img {
+              &:nth-of-type(4) {
+                .section_our_team_two_item_img {
                   padding-top: 36px;
                   padding-left: 51px;
                   padding-right: 24px;
@@ -1479,109 +1550,299 @@
             }
           }
         }
-        @media screen and (max-width: 1440px) {
+        @media screen and (max-width: 1408px) {
           .section_our_team_two {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             .section_our_team_two_item {
               .section_our_team_two_item_img {
+                width: 360px;
+                height: 430px;
                 img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 360px;
+                height: 100px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 30px;
+                  line-height: 36px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 36px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
+                }
+              }
+              &:nth-of-type(1) {
+                .section_our_team_two_item_img {
+                  padding-top: 39px;
+                  padding-left: 43px;
+                  padding-right: 42px;
+                }
+              }
+              &:nth-of-type(2) {
+                .section_our_team_two_item_img {
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(3) {
+                .section_our_team_two_item_img {
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
+                }
+              }
+              &:nth-of-type(4) {
+                .section_our_team_two_item_img {
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
                 }
               }
             }
           }
         }
-        @media screen and (max-width: 1368px) {
+        @media screen and (max-width: 1294px) {
           .section_our_team_two {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             .section_our_team_two_item {
               .section_our_team_two_item_img {
+                width: 390px;
+                height: 450px;
                 img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 390px;
+                height: 100px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 30px;
+                  line-height: 36px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 36px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
                 }
               }
               &:nth-of-type(1) {
                 .section_our_team_two_item_img {
-                  img {
-                    padding-top: 39px;
-                    padding-left: 83px;
-                    padding-right: 42px;
-                  }
+                  padding-top: 39px;
+                  padding-left: 43px;
+                  padding-right: 42px;
                 }
               }
               &:nth-of-type(2) {
                 .section_our_team_two_item_img {
-                  img {
-                    padding-top: 37px;
-                    padding-left: 87px;
-                    padding-right: 22px;
-                  }
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
                 }
               }
               &:nth-of-type(3) {
                 .section_our_team_two_item_img {
-                  img {
-                    padding-top: 30px;
-                    padding-left: 96px;
-                    padding-right: 55px;
-                  }
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
                 }
               }
               &:nth-of-type(4) {
                 .section_our_team_two_item_img {
-                  img {
-                    padding-top: 36px;
-                    padding-left: 91px;
-                    padding-right: 24px;
-                  }
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
                 }
               }
             }
           }
         }
-        @media screen and (max-width: 955px) {
+        @media screen and (max-width: 983px) {
           .section_our_team_two {
+            // padding-left: 80px;
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, 1fr);
             .section_our_team_two_item {
               .section_our_team_two_item_img {
+                width: 390px;
+                height: 450px;
                 img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 390px;
+                height: 100px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 30px;
+                  line-height: 36px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 20px;
+                  line-height: 36px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
                 }
               }
               &:nth-of-type(1) {
                 .section_our_team_two_item_img {
-                  img {
-                    padding-top: 39px;
-                    padding-left: 153px;
-                    padding-right: 42px;
-                  }
+                  padding-top: 39px;
+                  padding-left: 43px;
+                  padding-right: 42px;
                 }
               }
               &:nth-of-type(2) {
                 .section_our_team_two_item_img {
-                  img {
-                    padding-top: 37px;
-                    padding-left: 157px;
-                    padding-right: 22px;
-                  }
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
                 }
               }
               &:nth-of-type(3) {
                 .section_our_team_two_item_img {
-                  img {
-                    padding-top: 30px;
-                    padding-left: 166px;
-                    padding-right: 55px;
-                  }
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
                 }
               }
               &:nth-of-type(4) {
                 .section_our_team_two_item_img {
-                  img {
-                    padding-top: 36px;
-                    padding-left: 161px;
-                    padding-right: 24px;
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
+                }
+              }
+            }
+          }
+        }
+        @media screen and (max-width: 907px) {
+          .section_our_team_two {
+            padding-left: 120px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            .section_our_team_two_item {
+              .section_our_team_two_item_img {
+                width: 300px;
+                height: 350px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 300px;
+                height: 100px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 25px;
+                  line-height: 31px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 18px;
+                  line-height: 33px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
                   }
+                }
+              }
+              &:nth-of-type(1) {
+                .section_our_team_two_item_img {
+                  padding-top: 39px;
+                  padding-left: 43px;
+                  padding-right: 42px;
+                }
+              }
+              &:nth-of-type(2) {
+                .section_our_team_two_item_img {
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(3) {
+                .section_our_team_two_item_img {
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
+                }
+              }
+              &:nth-of-type(4) {
+                .section_our_team_two_item_img {
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
                 }
               }
             }
@@ -1622,6 +1883,158 @@
             }
           }
         }
+        @media screen and (max-width: 778px) {
+          .section_our_team_two {
+            padding-left: 150px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            .section_our_team_two_item {
+              .section_our_team_two_item_img {
+                width: 300px;
+                height: 350px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 300px;
+                height: 100px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 25px;
+                  line-height: 31px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 18px;
+                  line-height: 33px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
+                }
+              }
+              &:nth-of-type(1) {
+                .section_our_team_two_item_img {
+                  padding-top: 39px;
+                  padding-left: 43px;
+                  padding-right: 42px;
+                }
+              }
+              &:nth-of-type(2) {
+                .section_our_team_two_item_img {
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(3) {
+                .section_our_team_two_item_img {
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
+                }
+              }
+              &:nth-of-type(4) {
+                .section_our_team_two_item_img {
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
+                }
+              }
+            }
+          }
+        }
+        @media screen and (max-width: 676px) {
+          .section_our_team_two {
+            padding-left: 150px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            .section_our_team_two_item {
+              .section_our_team_two_item_img {
+                width: 260px;
+                height: 280px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 250px;
+                height: 80px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 25px;
+                  line-height: 31px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 18px;
+                  line-height: 33px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
+                }
+              }
+              &:nth-of-type(1) {
+                .section_our_team_two_item_img {
+                  padding-top: 39px;
+                  padding-left: 43px;
+                  padding-right: 42px;
+                }
+              }
+              &:nth-of-type(2) {
+                .section_our_team_two_item_img {
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(3) {
+                .section_our_team_two_item_img {
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
+                }
+              }
+              &:nth-of-type(4) {
+                .section_our_team_two_item_img {
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
+                }
+              }
+            }
+          }
+        }
         @media screen and (max-width: 675px) {
           .section_our_team_one {
             h3 {
@@ -1654,6 +2067,82 @@
               text-align: center;
               color: #bebebe;
               padding-top: 34px;
+            }
+          }
+        }
+        @media screen and (max-width: 604px) {
+          .section_our_team_two {
+            padding-left: 150px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            .section_our_team_two_item {
+              .section_our_team_two_item_img {
+                width: 400px;
+                height: 450px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 400px;
+                height: 80px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 25px;
+                  line-height: 31px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 18px;
+                  line-height: 33px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
+                }
+              }
+              &:nth-of-type(1) {
+                .section_our_team_two_item_img {
+                  padding-top: 39px;
+                  padding-left: 43px;
+                  padding-right: 42px;
+                }
+              }
+              &:nth-of-type(2) {
+                .section_our_team_two_item_img {
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(3) {
+                .section_our_team_two_item_img {
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
+                }
+              }
+              &:nth-of-type(4) {
+                .section_our_team_two_item_img {
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
+                }
+              }
             }
           }
         }
@@ -1727,6 +2216,83 @@
             }
           }
         }
+        @media screen and (max-width: 604px) {
+          .section_our_team_two {
+            padding-top: 73px;
+            padding-left: 150px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            .section_our_team_two_item {
+              .section_our_team_two_item_img {
+                width: 300px;
+                height: 350px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 300px;
+                height: 80px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 25px;
+                  line-height: 31px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 18px;
+                  line-height: 33px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
+                }
+              }
+              &:nth-of-type(1) {
+                .section_our_team_two_item_img {
+                  padding-top: 29px;
+                  padding-left: 23px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(2) {
+                .section_our_team_two_item_img {
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(3) {
+                .section_our_team_two_item_img {
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
+                }
+              }
+              &:nth-of-type(4) {
+                .section_our_team_two_item_img {
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
+                }
+              }
+            }
+          }
+        }
         @media screen and (max-width: 425px) {
           .section_our_team_one {
             h3 {
@@ -1759,6 +2325,83 @@
               text-align: center;
               color: #bebebe;
               padding-top: 34px;
+            }
+          }
+        }
+        @media screen and (max-width: 604px) {
+          .section_our_team_two {
+            padding-top: 73px;
+            padding-left: 150px;
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 1fr;
+            .section_our_team_two_item {
+              .section_our_team_two_item_img {
+                width: 250px;
+                height: 300px;
+                img {
+                  width: 100%;
+                  height: 100%;
+                }
+              }
+              .section_our_team_two_item_text {
+                width: 250px;
+                height: 80px;
+                padding-left: 43px;
+                background: #000000;
+                h5 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 25px;
+                  line-height: 31px;
+                  color: #ffffff;
+                  padding-top: 19px;
+                }
+                h6 {
+                  font-family: "Nunito";
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 18px;
+                  line-height: 33px;
+                  color: #989292;
+                  position: relative;
+                  &::after {
+                    content: url("/./assets/image/Vector.png");
+                    position: absolute;
+                    right: 20px;
+                    top: -20px;
+                  }
+                }
+              }
+              &:nth-of-type(1) {
+                .section_our_team_two_item_img {
+                  padding-top: 29px;
+                  padding-left: 23px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(2) {
+                .section_our_team_two_item_img {
+                  padding-top: 37px;
+                  padding-left: 37px;
+                  padding-right: 22px;
+                }
+              }
+              &:nth-of-type(3) {
+                .section_our_team_two_item_img {
+                  padding-top: 30px;
+                  padding-left: 56px;
+                  padding-right: 55px;
+                }
+              }
+              &:nth-of-type(4) {
+                .section_our_team_two_item_img {
+                  padding-top: 36px;
+                  padding-left: 51px;
+                  padding-right: 24px;
+                }
+              }
             }
           }
         }
