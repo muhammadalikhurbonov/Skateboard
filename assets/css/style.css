@@ -1278,11 +1278,11 @@
   }
   * body .container .section_our_services .section_our_services_two .section_our_services_two_item {
     border-radius: 270.5px;
-    height: 438px;
+    height: 388px;
   }
   * body .container .section_our_services .section_our_services_two .section_our_services_two_item .section_our_services_two_item_child img {
     width: 35%;
-    padding-top: 53px;
+    padding-top: 33px;
   }
   * body .container .section_our_services .section_our_services_two .section_our_services_two_item h3 {
     font-size: 28px;
@@ -1293,6 +1293,7 @@
     line-height: 26px;
   }
   * body .container .section_our_services .section_our_services_two .section_our_services_two_item h5 {
+    padding-top: 33px;
     font-size: 14px;
     line-height: 26px;
   }
@@ -1832,8 +1833,8 @@
     height: 100%;
   }
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item .section_our_team_two_item_text {
-    width: 250px;
-    height: 80px;
+    width: 260px;
+    height: 90px;
     padding-left: 43px;
     background: #000000;
   }
@@ -1858,7 +1859,7 @@
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item .section_our_team_two_item_text h6::after {
     content: url("/./assets/image/Vector.png");
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: -20px;
   }
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item:nth-of-type(1) .section_our_team_two_item_img {
@@ -1957,7 +1958,7 @@
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item .section_our_team_two_item_text h6::after {
     content: url("/./assets/image/Vector.png");
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: -20px;
   }
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item:nth-of-type(1) .section_our_team_two_item_img {
@@ -2090,7 +2091,7 @@
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item .section_our_team_two_item_text h6::after {
     content: url("/./assets/image/Vector.png");
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: -20px;
   }
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item:nth-of-type(1) .section_our_team_two_item_img {
@@ -2190,7 +2191,7 @@
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item .section_our_team_two_item_text h6::after {
     content: url("/./assets/image/Vector.png");
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: -20px;
   }
   * body .container .section_our_team .section_our_team_two .section_our_team_two_item:nth-of-type(1) .section_our_team_two_item_img {

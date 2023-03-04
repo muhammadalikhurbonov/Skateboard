@@ -1663,7 +1663,6 @@
           }
           .section_our_services_two {
             padding-left: 20px;
-
             padding-top: 50px;
             display: grid;
             grid-template-columns: 1fr;
@@ -1671,11 +1670,11 @@
             gap: 76px;
             .section_our_services_two_item {
               border-radius: 270.5px;
-              height: 438px;
+              height: 388px;
               .section_our_services_two_item_child {
                 img {
                   width: 35%;
-                  padding-top: 53px;
+                  padding-top: 33px;
                 }
               }
               h3 {
@@ -1687,6 +1686,7 @@
                 line-height: 26px;
               }
               h5 {
+                padding-top: 33px;
                 font-size: 14px;
                 line-height: 26px;
               }
@@ -2306,8 +2306,8 @@
                 }
               }
               .section_our_team_two_item_text {
-                width: 250px;
-                height: 80px;
+                width: 260px;
+                height: 90px;
                 padding-left: 43px;
                 background: #000000;
                 h5 {
@@ -2330,7 +2330,7 @@
                   &::after {
                     content: url("/./assets/image/Vector.png");
                     position: absolute;
-                    right: 20px;
+                    right: 10px;
                     top: -20px;
                   }
                 }
@@ -2441,7 +2441,7 @@
                   &::after {
                     content: url("/./assets/image/Vector.png");
                     position: absolute;
-                    right: 20px;
+                    right: 10px;
                     top: -20px;
                   }
                 }
@@ -2588,7 +2588,7 @@
                   &::after {
                     content: url("/./assets/image/Vector.png");
                     position: absolute;
-                    right: 20px;
+                    right: 10px;
                     top: -20px;
                   }
                 }
@@ -2700,7 +2700,7 @@
                   &::after {
                     content: url("/./assets/image/Vector.png");
                     position: absolute;
-                    right: 20px;
+                    right: 10px;
                     top: -20px;
                   }
                 }
