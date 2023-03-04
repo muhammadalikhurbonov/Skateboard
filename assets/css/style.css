@@ -6,9 +6,6 @@
 * body {
   background: #232227;
 }
-* body .container {
-  border: 2px solid red;
-}
 * body .container header {
   width: 100%;
   display: flex;
