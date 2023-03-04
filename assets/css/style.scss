@@ -5,7 +5,7 @@
   body {
     background: #232227;
     .container {
-      // border: 2px solid red;
+      border: 2px solid red;
       header {
         width: 100%;
         display: flex;
@@ -3311,7 +3311,6 @@
           }
         }
       }
-
       @media screen and (max-width: 1867px) {
         .section_one {
           .section_one_item {
@@ -3931,7 +3930,7 @@
               }
               .section_one_item_text {
                 h1 {
-                  font-size: 76px;
+                  font-size: 73px;
                   line-height: 100px;
                   span {
                     img {
@@ -3947,7 +3946,8 @@
                 line-height: 33 px;
               }
             }
-            &:nth-of-type(2) {
+            &:nth-of-type(2) { 
+              padding-right: 55px;
               .section_one_item_img {
                 width: 630px;
                 height: 890px;

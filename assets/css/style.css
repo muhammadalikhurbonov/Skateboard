@@ -6,6 +6,9 @@
 * body {
   background: #232227;
 }
+* body .container {
+  border: 2px solid red;
+}
 * body .container header {
   width: 100%;
   display: flex;
@@ -3209,7 +3212,7 @@
     line-height: 33px;
   }
   * body .container .section_one .section_one_item:nth-of-type(1) .section_one_item_text h1 {
-    font-size: 76px;
+    font-size: 73px;
     line-height: 100px;
   }
   * body .container .section_one .section_one_item:nth-of-type(1) .section_one_item_text h1 span img {
@@ -3220,6 +3223,9 @@
     margin-top: 18px;
     font-size: 18px;
     line-height: 33 px;
+  }
+  * body .container .section_one .section_one_item:nth-of-type(2) {
+    padding-right: 55px;
   }
   * body .container .section_one .section_one_item:nth-of-type(2) .section_one_item_img {
     width: 630px;
