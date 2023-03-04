@@ -398,6 +398,9 @@
   padding-top: 43px;
 }
 @media screen and (max-width: 1440px) {
+  * body .container .section_our_services .section_our_services_two {
+    padding-right: 20px;
+  }
   * body .container .section_our_services .section_our_services_two .section_our_services_two_item {
     height: 628px;
   }
@@ -497,6 +500,7 @@
     line-height: 30px;
   }
   * body .container .section_our_services .section_our_services_two {
+    padding-right: 90px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -660,21 +664,10 @@
     line-height: 28px;
   }
 }
-@media screen and (max-width: 821px) {
-  * body .container .section_our_services .section_our_services_one h3 {
-    font-size: 26px;
-    line-height: 27px;
-  }
-  * body .container .section_our_services .section_our_services_one h2 {
-    font-size: 52px;
-    line-height: 26px;
-  }
-  * body .container .section_our_services .section_our_services_one p {
-    font-size: 14px;
-    line-height: 20px;
-  }
+@media screen and (max-width: 862px) {
   * body .container .section_our_services .section_our_services_two {
     padding-left: 80px;
+    padding-right: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-right: 60px;
@@ -698,6 +691,20 @@
   * body .container .section_our_services .section_our_services_two .section_our_services_two_item h5 {
     font-size: 14px;
     line-height: 26px;
+  }
+}
+@media screen and (max-width: 821px) {
+  * body .container .section_our_services .section_our_services_one h3 {
+    font-size: 26px;
+    line-height: 27px;
+  }
+  * body .container .section_our_services .section_our_services_one h2 {
+    font-size: 52px;
+    line-height: 26px;
+  }
+  * body .container .section_our_services .section_our_services_one p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 @media screen and (max-width: 711px) {
